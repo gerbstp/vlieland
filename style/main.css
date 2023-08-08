@@ -1,0 +1,73 @@
+body {
+    margin:0px;
+    background-color:aliceblue
+}
+img {
+    float:right;
+}
+[class^="col"] {
+    width: 100%;
+    padding: 15px;
+    box-sizing:border-box;
+}
+@media screen and (min-width:700px) {
+    
+[class^="col"] {
+    padding: 15px;
+    box-sizing:border-box;
+    }
+
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 0px 0px 0px 20px;
+}
+}
+.aside {
+    background-color:aliceblue
+}
+.main {
+    background-color:floralwhite;
+    padding:0px;
+}
+.mainheader {
+    background-image: url(../images/vlieland-view.jpeg);
+    background-size: cover;
+    background-position: center;
+    height: 200px;
+    display:flex;
+    justify-content:center;
+    align-items: end;
+}
+h1 {
+    color: rgba(100%, 100%, 100%, 0.7);
+    font-family: "Borel", cursive;
+    font-size: 4rem;
+}
+h2, b {
+    font-family: "Borel", cursive;
+}
+ol {
+    padding-left:5px;
+}
+li {
+    padding-left: 5px;
+    margin-bottom: 15px
+}
+footer {
+    background-color: rgb(223, 237, 249);
+    color: rgb(80, 72, 170);
+    padding:0px
+}
